@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def root():
-    return jsonify(message="Hola Mundo desde Flask 🚀")
+    return "Hola Mundo desde Flask 🚀, practica final, Engels Germosen 2023-1387"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))  # Render inyecta PORT
